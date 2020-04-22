@@ -1,0 +1,18 @@
+[
+  {
+    "Name": "Sonic the Hedgehog",
+    "Description": "Sonic the Hedgehog is an upcoming adventure comedy film based on the Sonic video game franchise by Sega.",
+    "ReleaseDate": "14.02.2020",
+    "RunningTime": "100",
+    "Genre": "Adventure, Comedy",
+    "Position": "1"
+  },
+  {
+    "Name": "Venom 2",
+    "Description": "Plot unknown. Sequel to the 2018 film 'Venom'.",
+    "ReleaseDate": "02.10.2020",
+    "RunningTime": "120",
+    "Genre": "Action",
+    "Position": "1"
+  }
+]

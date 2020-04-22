@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" name="QualityCinemaAuto.dll" fullname="C:\User\tlevkova\Desktop\Teodora Levkova\Projects\QualityCinema\QualityCinemaAuto\QualityCinemaAuto\bin\Debug\netcoreapp2.1\QualityCinemaAuto.dll" testcasecount="74" result="Failed" total="2" passed="1" failed="1" inconclusive="0" skipped="0" asserts="1" engine-version="3.10.0.0" clr-version="4.0.30319.42000" start-time="2019-10-31 22:23:50Z" end-time="2019-10-31 22:23:59Z" duration="9.063337">
+  <command-line><![CDATA[C:\Users\tlevkova\.nuget\packages\microsoft.testplatform.testhost\16.3.0\lib\netcoreapp2.1\testhost.dll --port 51853 --endpoint 127.0.0.1:051853 --role client --parentprocessid 32064 --telemetryoptedin true]]></command-line>
+  <filter>
+    <or>
+      <test>QualityCinemaAuto.Tests.Movies.ComingSoonPageTests.Coming Soon - Movie's descriptions are visible</test>
+      <test>QualityCinemaAuto.Tests.Movies.ComingSoonPageTests.Coming Soon - Movie's images are visible</test>
+    </or>
+  </filter>
+  <test-suite type="Assembly" id="0-1163" name="QualityCinemaAuto.dll" fullname="C:/User/tlevkova/Desktop/Teodora Levkova/Projects/QualityCinema/QualityCinemaAuto/QualityCinemaAuto/bin/Debug/netcoreapp2.1/QualityCinemaAuto.dll" runstate="Runnable" testcasecount="74" result="Failed" site="Child" start-time="2019-10-31 22:23:50Z" end-time="2019-10-31 22:23:59Z" duration="9.026964" total="2" passed="1" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="1">
+    <environment framework-version="3.12.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows 10.0.17134 " platform="Win32NT" cwd="C:\User\tlevkova\Desktop\Teodora Levkova\Projects\QualityCinema\QualityCinemaAuto\QualityCinemaAuto\bin\Debug\netcoreapp2.1" machine-name="QH-PC-10850" user="tlevkova" user-domain="QH" culture="bg-BG" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="SynchronousEvents" value="False" />
+      <setting name="RandomSeed" value="240801178" />
+      <setting name="ProcessModel" value="InProcess" />
+      <setting name="DomainUsage" value="Single" />
+      <setting name="DefaultTestNamePattern" value="{m}{a}" />
+      <setting name="WorkDirectory" value="C:\User\tlevkova\Desktop\Teodora Levkova\Projects\QualityCinema\QualityCinemaAuto\QualityCinemaAuto\bin\Debug\netcoreapp2.1" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="1984" />
+      <property name="_APPDOMAIN" value="testhost" />
+    </properties>
+    <failure>
+      <message><![CDATA[One or more child tests had errors]]></message>
+    </failure>
+    <test-suite type="TestSuite" id="0-1164" name="QualityCinemaAuto" fullname="QualityCinemaAuto" runstate="Runnable" testcasecount="74" result="Failed" site="Child" start-time="2019-10-31 22:23:50Z" end-time="2019-10-31 22:23:59Z" duration="9.019358" total="2" passed="1" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="1">
+      <failure>
+        <message><![CDATA[One or more child tests had errors]]></message>
+      </failure>
+      <test-suite type="TestSuite" id="0-1165" name="Tests" fullname="QualityCinemaAuto.Tests" runstate="Runnable" testcasecount="74" result="Failed" site="Child" start-time="2019-10-31 22:23:50Z" end-time="2019-10-31 22:23:59Z" duration="9.018800" total="2" passed="1" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="1">
+        <failure>
+          <message><![CDATA[One or more child tests had errors]]></message>
+        </failure>
+        <test-suite type="TestSuite" id="0-1167" name="Movies" fullname="QualityCinemaAuto.Tests.Movies" runstate="Runnable" testcasecount="8" result="Failed" site="Child" start-time="2019-10-31 22:23:50Z" end-time="2019-10-31 22:23:59Z" duration="9.018787" total="2" passed="1" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <failure>
+            <message><![CDATA[One or more child tests had errors]]></message>
+          </failure>
+          <test-suite type="TestFixture" id="0-1013" name="ComingSoonPageTests" fullname="QualityCinemaAuto.Tests.Movies.ComingSoonPageTests" classname="QualityCinemaAuto.Tests.Movies.ComingSoonPageTests" runstate="Runnable" testcasecount="2" result="Failed" site="Child" start-time="2019-10-31 22:23:50Z" end-time="2019-10-31 22:23:59Z" duration="9.014683" total="2" passed="1" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="1">
+            <properties>
+              <property name="Author" value="Dilyan Radev" />
+            </properties>
+            <failure>
+              <message><![CDATA[One or more child tests had errors]]></message>
+            </failure>
+            <test-suite type="ParameterizedMethod" id="0-1015" name="ComingSoonImageContentConfirmation" fullname="QualityCinemaAuto.Tests.Movies.ComingSoonPageTests.ComingSoonImageContentConfirmation" classname="QualityCinemaAuto.Tests.Movies.ComingSoonPageTests" runstate="Runnable" testcasecount="1" result="Failed" site="Child" start-time="2019-10-31 22:23:53Z" end-time="2019-10-31 22:23:54Z" duration="0.773828" total="1" passed="0" failed="1" warnings="0" inconclusive="0" skipped="0" asserts="1">
+              <properties>
+                <property name="Description" value="Asserts that the movies' images in Coming Soon Page are visible" />
+              </properties>
+              <failure>
+                <message><![CDATA[One or more child tests had errors]]></message>
+              </failure>
+              <test-case id="0-1014" name="Coming Soon - Movie's images are visible" fullname="QualityCinemaAuto.Tests.Movies.ComingSoonPageTests.Coming Soon - Movie's images are visible" methodname="ComingSoonImageContentConfirmation" classname="QualityCinemaAuto.Tests.Movies.ComingSoonPageTests" runstate="Runnable" seed="56807889" result="Failed" start-time="2019-10-31 22:23:53Z" end-time="2019-10-31 22:23:54Z" duration="0.761017" asserts="1">
+                <failure>
+                  <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                  <stack-trace><![CDATA[   at QualityCinemaAuto.Tests.Movies.ComingSoonPageTests.ComingSoonImageContentConfirmation() in C:\Users\tlevkova\Desktop\Teodora Levkova\Projects\QualityCinema\QualityCinemaAuto\QualityCinemaAuto\Tests\Movies\ComingSoonPage.cs:line 26
+]]></stack-trace>
+                </failure>
+                <assertions>
+                  <assertion result="Failed">
+                    <message><![CDATA[  Expected: True
+  But was:  False
+]]></message>
+                    <stack-trace><![CDATA[   at QualityCinemaAuto.Tests.Movies.ComingSoonPageTests.ComingSoonImageContentConfirmation() in C:\Users\tlevkova\Desktop\Teodora Levkova\Projects\QualityCinema\QualityCinemaAuto\QualityCinemaAuto\Tests\Movies\ComingSoonPage.cs:line 26
+]]></stack-trace>
+                  </assertion>
+                </assertions>
+              </test-case>
+            </test-suite>
+            <test-suite type="ParameterizedMethod" id="0-1017" name="ComingSoonTextContentConfirmation" fullname="QualityCinemaAuto.Tests.Movies.ComingSoonPageTests.ComingSoonTextContentConfirmation" classname="QualityCinemaAuto.Tests.Movies.ComingSoonPageTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2019-10-31 22:23:54Z" end-time="2019-10-31 22:23:59Z" duration="5.044750" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+              <properties>
+                <property name="Description" value="Asserts that the movies' information in Coming Soon Page is visible" />
+              </properties>
+              <test-case id="0-1016" name="Coming Soon - Movie's descriptions are visible" fullname="QualityCinemaAuto.Tests.Movies.ComingSoonPageTests.Coming Soon - Movie's descriptions are visible" methodname="ComingSoonTextContentConfirmation" classname="QualityCinemaAuto.Tests.Movies.ComingSoonPageTests" runstate="Runnable" seed="1927203553" result="Passed" start-time="2019-10-31 22:23:54Z" end-time="2019-10-31 22:23:59Z" duration="5.044590" asserts="0" />
+            </test-suite>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

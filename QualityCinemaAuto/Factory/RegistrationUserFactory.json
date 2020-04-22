@@ -1,0 +1,18 @@
+[
+  {
+    "_comment": "TODO: Create more valid users",
+
+    "email": "someusertest@test.bg",
+    "password": "Tv7627343%",
+    "confirm_password": "Tv7627343%",
+    "display_name": "Cinema Test",
+    "year_of_birth": "1994"
+  },
+  {
+    "email": "anotherusertest@test.bg",
+    "password": "Lp7057261!",
+    "confirm_password": "Lp7057261!",
+    "display_name": "Ivo",
+    "year_of_birth": "1995"
+  }
+]
